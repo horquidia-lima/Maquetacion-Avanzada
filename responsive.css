@@ -1,0 +1,194 @@
+@media (max-width: 1289px){
+  .wrap{
+    width: 90%;
+    margin: 0px auto;
+  }
+
+  #banner h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 33px auto;
+    width: 100%;
+  }
+
+  .card{
+    width: 16.9%;
+    margin: 1.45%;
+  }
+
+  .card p{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #articles{
+    width: 58%;
+    
+  }
+
+  #articles article{
+    width: 94%;
+  }
+
+  #footer .wrap > div{
+    width: 24%;
+  }
+
+  #footer #browsers img{
+    width: 15%;
+  }
+
+  #footer h5{
+    font-size: 30px;
+  }
+}
+
+@media(max-width: 1098px){
+  .card {
+    width: 16.8%;
+  }
+  .card .category{
+    font-size: 17px;
+  }
+
+  .card .description{
+    font-size: 14px;
+  }
+
+  #articles{
+    width: 56%;
+  }
+}
+
+@media (max-width: 1010px){
+  #articles{
+    width: 60%;
+  }
+
+  #footer h5{
+    font-size: 22px;
+  }
+
+  
+  #footer .wrap > div{
+    width: 21%;
+  }
+
+  #footer #browsers img{
+    width: 13%;
+  }
+
+  #lateral{
+    width: 25%;
+  }
+
+  #lateral input[type="text"]{
+    width: 78%;
+  }
+
+  .aside-box{
+    width: 96%;
+    min-height:240px;
+    height: auto;
+  }
+
+ 
+
+  #login input[type="email"],
+  #login input[type="password"]{
+    width: 65%;
+  }
+
+  #login #user,
+  #login #password{
+    margin-left: 25px;
+  }
+
+  #login input[type="reset"]{
+    display: none;
+  }
+}
+
+
+
+@media (max-width: 858px){
+
+  #lateral h3{
+    font-size: 20px;
+  }
+  #banner h1{
+    font-size: 28px;
+  }
+
+  .card .category{
+    font-size: 15px;
+    margin-top: -23px;
+  }
+
+  .card{
+    height: auto;
+  }
+
+  .card .description{
+    display: none;
+  }
+
+  #footer img{
+    margin-bottom: 15px;
+    max-width: 100%;
+  }
+
+   #footer h5{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 724px){
+  #header{
+    width: 100%;
+    height: 120px;
+    padding-top: 10px;
+  }
+
+  #logo{
+    float: none;
+    width: 200px;
+    margin: 0px auto;
+  }
+
+  #menu{
+    clear: both;
+    width: 440px;
+    float: none;
+    margin: 0px auto;
+  }
+
+
+}
+
+@media (max-width: 660px){
+  #header h1{
+    font-size: 25px;
+  }
+
+  #article{
+    float: none;
+    width: 100%;
+    margin: 0px auto;
+    min-height: auto;
+    margin-top: 20px;
+  }
+
+  #lateral input[type="text"]{
+    width: 93%;
+  }
+
+  #articles{
+    width: 100%;
+    float: none;
+    min-height: auto;
+    margin: 0px auto;
+  }
+}
